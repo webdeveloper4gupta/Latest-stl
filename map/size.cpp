@@ -1,0 +1,15 @@
+#include <iostream>
+#include <map>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+          map<int, int> m1;
+          m1[1] = 0;
+          m1[2] = 1;
+          m1[3] = 2;
+          m1[4] = 3;
+          cout<<m1.size()<<endl;
+          return 0;
+}
